@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F4F751F24B399EA00FB392B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F751E24B399EA00FB392B /* UIColor+Extension.swift */; };
 		2F51C9F724AFA23400752101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51C9F624AFA23400752101 /* AppDelegate.swift */; };
 		2F51C9F924AFA23400752101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51C9F824AFA23400752101 /* SceneDelegate.swift */; };
 		2F51C9FB24AFA23400752101 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51C9FA24AFA23400752101 /* ViewController.swift */; };
 		2F51C9FE24AFA23400752101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F51C9FC24AFA23400752101 /* Main.storyboard */; };
 		2F51CA0024AFA23500752101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F51C9FF24AFA23500752101 /* Assets.xcassets */; };
 		2F51CA0324AFA23500752101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F51CA0124AFA23500752101 /* LaunchScreen.storyboard */; };
+		2F51CA0D24B1142100752101 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51CA0C24B1142100752101 /* Presenter.swift */; };
+		2F51CA1124B132E100752101 /* AnalyzeBPMManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51CA1024B132E100752101 /* AnalyzeBPMManager.swift */; };
+		2F9E129F24BF16D600C820FC /* TappedAnalyzeBPM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E129E24BF16D500C820FC /* TappedAnalyzeBPM.swift */; };
+		2F9E12AE24C0D6CD00C820FC /* DSEG7Classic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F9E12AD24C0D6CC00C820FC /* DSEG7Classic-Bold.ttf */; };
+		2FED10A324B79AA7009B881B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED10A224B79AA7009B881B /* ProgressBar.swift */; };
+		4C867EA1744E6ED04792CE60 /* Pods_BPM_Analyzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324950CDEDBA90D56305CDC2 /* Pods_BPM_Analyzer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B3B7DFFE1CDB8F742DA4CAF /* Pods-BPM Analyzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPM Analyzer.debug.xcconfig"; path = "Target Support Files/Pods-BPM Analyzer/Pods-BPM Analyzer.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4F751E24B399EA00FB392B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		2F51C9F324AFA23400752101 /* BPM Analyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPM Analyzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F51C9F624AFA23400752101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F51C9F824AFA23400752101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,13 @@
 		2F51C9FF24AFA23500752101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F51CA0224AFA23500752101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F51CA0424AFA23500752101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F51CA0C24B1142100752101 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		2F51CA1024B132E100752101 /* AnalyzeBPMManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeBPMManager.swift; sourceTree = "<group>"; };
+		2F9E129E24BF16D500C820FC /* TappedAnalyzeBPM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappedAnalyzeBPM.swift; sourceTree = "<group>"; };
+		2F9E12AD24C0D6CC00C820FC /* DSEG7Classic-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DSEG7Classic-Bold.ttf"; sourceTree = "<group>"; };
+		2FED10A224B79AA7009B881B /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		324950CDEDBA90D56305CDC2 /* Pods_BPM_Analyzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPM_Analyzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3F10FE03EDB0405DCB534C /* Pods-BPM Analyzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BPM Analyzer.release.xcconfig"; path = "Target Support Files/Pods-BPM Analyzer/Pods-BPM Analyzer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C867EA1744E6ED04792CE60 /* Pods_BPM_Analyzer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048CB8A95E1C7125A415D158 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B3B7DFFE1CDB8F742DA4CAF /* Pods-BPM Analyzer.debug.xcconfig */,
+				AB3F10FE03EDB0405DCB534C /* Pods-BPM Analyzer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2F51C9EA24AFA23300752101 = {
 			isa = PBXGroup;
 			children = (
 				2F51C9F524AFA23400752101 /* BPM Analyzer */,
 				2F51C9F424AFA23400752101 /* Products */,
+				048CB8A95E1C7125A415D158 /* Pods */,
+				AB9916427B1E6CE44E3B5C84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,75 @@
 			children = (
 				2F51C9F624AFA23400752101 /* AppDelegate.swift */,
 				2F51C9F824AFA23400752101 /* SceneDelegate.swift */,
-				2F51C9FA24AFA23400752101 /* ViewController.swift */,
-				2F51C9FC24AFA23400752101 /* Main.storyboard */,
+				2FED10A224B79AA7009B881B /* ProgressBar.swift */,
+				2F850DF324BE4A8800E8C9DB /* Extension */,
+				2F850DF424BE4A9900E8C9DB /* TopPage */,
 				2F51C9FF24AFA23500752101 /* Assets.xcassets */,
+				2F9E12AC24C0D61B00C820FC /* Font */,
 				2F51CA0124AFA23500752101 /* LaunchScreen.storyboard */,
 				2F51CA0424AFA23500752101 /* Info.plist */,
 			);
 			path = "BPM Analyzer";
+			sourceTree = "<group>";
+		};
+		2F850DF324BE4A8800E8C9DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F4F751E24B399EA00FB392B /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2F850DF424BE4A9900E8C9DB /* TopPage */ = {
+			isa = PBXGroup;
+			children = (
+				2F9E129B24BF15B000C820FC /* View */,
+				2F9E129C24BF15BB00C820FC /* Presenter */,
+				2F9E129D24BF15C700C820FC /* Model */,
+			);
+			path = TopPage;
+			sourceTree = "<group>";
+		};
+		2F9E129B24BF15B000C820FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F51C9FC24AFA23400752101 /* Main.storyboard */,
+				2F51C9FA24AFA23400752101 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F9E129C24BF15BB00C820FC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2F51CA0C24B1142100752101 /* Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2F9E129D24BF15C700C820FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F51CA1024B132E100752101 /* AnalyzeBPMManager.swift */,
+				2F9E129E24BF16D500C820FC /* TappedAnalyzeBPM.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F9E12AC24C0D61B00C820FC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2F9E12AD24C0D6CC00C820FC /* DSEG7Classic-Bold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		AB9916427B1E6CE44E3B5C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				324950CDEDBA90D56305CDC2 /* Pods_BPM_Analyzer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F51CA0724AFA23500752101 /* Build configuration list for PBXNativeTarget "BPM Analyzer" */;
 			buildPhases = (
+				5CAC9E7F0B981B2DDB2781B6 /* [CP] Check Pods Manifest.lock */,
 				2F51C9EF24AFA23400752101 /* Sources */,
 				2F51C9F024AFA23400752101 /* Frameworks */,
 				2F51C9F124AFA23400752101 /* Resources */,
+				9F432B00C89BEBC97DAFDB8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +220,67 @@
 				2F51CA0324AFA23500752101 /* LaunchScreen.storyboard in Resources */,
 				2F51CA0024AFA23500752101 /* Assets.xcassets in Resources */,
 				2F51C9FE24AFA23400752101 /* Main.storyboard in Resources */,
+				2F9E12AE24C0D6CD00C820FC /* DSEG7Classic-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5CAC9E7F0B981B2DDB2781B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BPM Analyzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F432B00C89BEBC97DAFDB8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BPM Analyzer/Pods-BPM Analyzer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BPM Analyzer/Pods-BPM Analyzer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BPM Analyzer/Pods-BPM Analyzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2F51C9EF24AFA23400752101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4F751F24B399EA00FB392B /* UIColor+Extension.swift in Sources */,
+				2F51CA1124B132E100752101 /* AnalyzeBPMManager.swift in Sources */,
+				2F9E129F24BF16D600C820FC /* TappedAnalyzeBPM.swift in Sources */,
 				2F51C9FB24AFA23400752101 /* ViewController.swift in Sources */,
 				2F51C9F724AFA23400752101 /* AppDelegate.swift in Sources */,
+				2F51CA0D24B1142100752101 /* Presenter.swift in Sources */,
 				2F51C9F924AFA23400752101 /* SceneDelegate.swift in Sources */,
+				2FED10A324B79AA7009B881B /* ProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +422,7 @@
 		};
 		2F51CA0824AFA23500752101 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B3B7DFFE1CDB8F742DA4CAF /* Pods-BPM Analyzer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +435,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.BPM-Analyzer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		2F51CA0924AFA23500752101 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3F10FE03EDB0405DCB534C /* Pods-BPM Analyzer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "test.BPM-Analyzer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

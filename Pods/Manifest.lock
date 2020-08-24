@@ -1,0 +1,60 @@
+PODS:
+  - FontAwesome.swift (1.9.0)
+  - IBAnimatable (6.1.0)
+  - LTMorphingLabel (0.8.0)
+  - MarqueeLabel (4.0.2)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - FontAwesome.swift
+  - IBAnimatable
+  - LTMorphingLabel
+  - MarqueeLabel
+  - NVActivityIndicatorView
+  - PromiseKit (~> 6.8)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - FontAwesome.swift
+    - IBAnimatable
+    - LTMorphingLabel
+    - MarqueeLabel
+    - NVActivityIndicatorView
+    - PromiseKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  FontAwesome.swift: a403b88cec950511745ba8f2decd1b6a07346d13
+  IBAnimatable: 99dddd4c0625884a301ba3ecbc1615f8a390368e
+  LTMorphingLabel: 1ada1cb5c046ae4ce5c66b428cf2e05e227e8e4f
+  MarqueeLabel: f762aa681ae201f66c1d511858b171f75d83013a
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: c5a6816b5debb7ace99bcef28e0c7a22066feb7b
+
+COCOAPODS: 1.8.3
